@@ -9,7 +9,7 @@ jobs:
 - job: Job_1
   displayName: Agent job 1
   pool:
-    vmImage: ubuntu-20.04
+    vmImage: windows-latest
   steps:
   - checkout: self
   - task: NodeTool@0
