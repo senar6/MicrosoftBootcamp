@@ -7,7 +7,7 @@ jobs:
 - job: Job_1
   displayName: Agent job 1
   pool:
-    vmImage: unbuntu-latest
+    vmImage: ubuntu-latest
   steps:
   - checkout: self
   - task: NodeTool@0
