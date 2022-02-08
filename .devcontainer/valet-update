@@ -11,5 +11,5 @@ docker login $VALET_REGISTRY
 # better test with the latest tag before a bootcamp
 # find the last version here: https://github.com/valet-customers/distribution/pkgs/container/valet-cli
 
-# docker pull $VALET_IMAGE:latest
-docker pull $VALET_IMAGE:0.1.0.10368 # <-- version from 20211005
+docker pull $VALET_IMAGE:latest
+# docker pull $VALET_IMAGE:0.1.0.10368 # <-- version from 20211005
